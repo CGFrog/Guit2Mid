@@ -4,6 +4,9 @@ A real-time audio plugin (VST3 / AU / Standalone, built on [JUCE](https://juce.c
 that turns a clean guitar DI signal into MIDI: single notes, chords, arpeggios,
 re-picked notes, hammer-ons, and (optionally) bends.
 
+## Note from Ian
+This is a continuation of a guitar pedal I made/wrote school, the hardware I used was inadequate for accurate FFT. Claude Code wrote all of this application, wanted to test Opus 5.5 out with it. The plugin works well enough for getting basic ideas from the guitar to the DAW but would like to get it in a state that live performances with it would be possible. 
+
 ## Quick start
 
 1. Put the plugin on the track that receives your guitar DI (clean, before any
